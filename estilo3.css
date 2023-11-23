@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+/* BEM VINDO */
+
+div#b1{
+    padding: 3rem;
+    text-align: center;
+    background-color: #101920;
+    color: white;
+}
+
+#b1 p:nth-child(1){
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+/* QTS INGRESSOS PRECISA */
+
+
+#b2{
+    width: 40vw;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+input#custoev{
+    width: 8rem;
+    margin-left: 5rem;
+}
+
+input#numing{
+    width: 8rem;
+    margin-left: 3rem;
+    
+}
+
+input#btnc{
+    width: 8rem;
+    height: 1.6rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+#b3 {
+    display: flex;
+    margin: auto 0;
+    justify-content: center;
+}
+
+p.texto{
+    width: 40vw;
+}
+/* media query*/
+
+@media (max-width: 768px) {
+    #b2{
+        width: 80vw;
+    }
+    input#numing{
+        margin: 0;
+    }
+    input#custoev{
+        margin: 0;
+    }
+    #b3{
+        width: 100vw;
+        height: auto;
+    }
+    #a3{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #b3{
+        height: auto;
+        margin: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    P.texto{
+        margin: 0;
+        color: black;
+        font-size: 0.7rem;
+        padding-top: 0.5rem;
+        width: 80vw;
+    }
+
+}

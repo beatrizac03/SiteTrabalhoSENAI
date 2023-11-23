@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+
+/* começo */
+
+#cor{
+    width: 100vw;
+    height: 15vh;
+    background-color: #101920;
+    border-radius: 0 0 5rem 5rem;
+   
+  position: relative; /* ou position: static; */
+  z-index: 1;
+}
+
+#image{
+    width: 45%;
+    display: flex;
+    margin: auto;
+    
+}
+
+#image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+#content{
+    width: 100vw;
+    height: 50vh;
+}
+
+#texto{
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+
+}
+
+#texto h1{
+    padding: 0.5rem;
+}
+
+#texto2{
+    width: 40vw;
+    margin: 0 auto;
+}
+
+
+
+
+input#num{
+    width: 4rem;
+    height: 1.1rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+#result{
+    width: 40vw;
+    margin: 0 auto;
+    padding-top: 1rem;
+    color: green;
+}
+
+.det{
+    color: black;
+}
+
+.detalhes-compra{
+    color: rgb(65, 65, 219);
+}
+/* imagem */
+
+
+
+/* MEDIA QUERY */
+@media (max-width: 768px){
+
+    
+    #introd{
+        height: 23vh;
+    }
+    #cor{
+        height: 5vh;
+    }
+    #image{
+        width: 60vw;
+    }
+    #texto2{
+        width: 80vw;
+    }
+    #result{
+        width: 80vw;
+    }
+    #result>p{
+        font-size: 0.8rem;
+    }
+
+}
+body{
+    overflow-x: hidden;
+}
+
+
